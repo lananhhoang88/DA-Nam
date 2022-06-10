@@ -1,0 +1,77 @@
+.layout-menu-container {
+    padding-top: 60px;
+    width: 290px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 15%);
+}
+
+.scroll-bar ul{
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+}
+
+.scroll-bar li a {
+    padding: 10px 10px 10px 10px;
+    color: #495057;
+    border-left: 0;
+    display: flex;
+    align-items: center;
+}
+.scroll-bar li ul a{
+    padding-left: 30px;
+}
+.scroll-bar ul li:hover a{
+    text-decoration: none;
+}
+
+.root-menu {
+    height: 60px;
+    align-items: center;
+    padding: 15px 10px;
+    text-transform: uppercase;
+    color: #337ab7;
+    word-spacing: 1px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 15%);
+    font-weight: 700;
+    display: flex;
+}
+
+.rootMenu {
+    padding-right: 10px;
+}
+
+.menu {
+    text-decoration: none;
+    color: #495057;
+}
+.menu-label{
+    width: 85%;
+    text-decoration: none;
+}
+
+.menu-icon {
+    width: 24px;
+    height: 24px;
+    color: #495057;
+    /* color: #337ab7; */
+    padding-right: 10px;
+}
+
+.menu-icon-1 {
+    width: 20px;
+    height: 20px;
+    color: #495057;
+    padding-right: 10px;
+}
+
+.scroll-bar li a>span.menu-label {
+    line-height: 1.6em;
+}
+
+.scroll-bar li a span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.scroll-bar ul li:hover ul{
+    display: block;
+}
